@@ -284,6 +284,8 @@ const sahil = {
 
 };
 
+console.log(sahil.calcAge());
+
 // bracket notation for object sahil that demostrates object calcAge method. 
 console.log(sahil.updatedAge);
 
