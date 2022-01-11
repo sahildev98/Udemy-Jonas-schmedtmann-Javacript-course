@@ -266,9 +266,9 @@ const sahil = {
     hasDriversLicense: true,
     // calc age is the property of object of the sahil object. Just like properties above.  
     // function expression or object methods
-    calcAge: function(age){
-        return 2021 - age;
-    }
+    // calcAge: function(age){
+    //     return 2021 - age;
+    // }
 };
 
 // bracket notation for object sahil that demostrates object calcAge method. 
