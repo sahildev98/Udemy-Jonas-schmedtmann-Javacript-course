@@ -271,10 +271,16 @@ const sahil = {
     // }
     /* age is already written as a property of sahil object. This goes against DRY principles(Don't Repeat Yourself).
     To avoid repeating code, we can use the this keyword to execute code that is already written. 
-    in simple words, this refers to the owners object or property of an object in this case (below).   */
+    in simple words, this refers to the owners object or property of an object in this case (below). */
     // calcAge: function(){
     //    return 2021 - this.age;
     // }
+    /*  Using the example above too many times can cause a delay to execute code effciently. So we can use this 
+    example of 'this' keyword */
+    calcAge: function(){
+        this.age = 2037 - this.age;
+        return this.age;
+    }
 
 };
 
