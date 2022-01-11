@@ -276,7 +276,7 @@ const sahil = {
     //    return 2021 - this.age;
     // }
     /*  Using the example above too many times can cause a delay to execute code effciently. So we can use this 
-    example of 'this' keyword */
+    example of 'this' keyword. This example creates a new property after calcAge method.  */
     calcAge: function(){
         this.updatedAge = 2021 - this.age;
         return this.updatedAge;
@@ -284,6 +284,7 @@ const sahil = {
 
 };
 
+// the new updatedAge property is only created if the calcAge method is called. 
 console.log(sahil.calcAge());
 
 // bracket notation for object sahil that demostrates object calcAge method. 
