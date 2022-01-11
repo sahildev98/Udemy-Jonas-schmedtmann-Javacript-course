@@ -281,4 +281,3 @@ In objects to write function we create a new property and put function keyword. 
     };
 
 
-// go back to udemy js object methods lesson. ud
