@@ -278,7 +278,8 @@ console.log(sahil['calcAge'](1998));
 console.log(`I am ` + sahil.calcAge(1998) + ` years old`);
 
 /* normally we assign a variable to the function. 
-In objects to write function we create a new property and put function keyword. E.g above */ 
+In objects to write function we create a new property and put function keyword. E.g above
+An property is called first when the code has been executed via the server. Then the function then replaces the property. */ 
  const calcAge = function (age){
         return 2021 - age;
     };
