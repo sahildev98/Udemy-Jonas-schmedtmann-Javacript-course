@@ -271,7 +271,7 @@ const sahil = {
     }
 };
 
-
+// bracket notation. 
 console.log(sahil['calcAge'](1998));
 
 /* normally we assign a variable to the function. 
