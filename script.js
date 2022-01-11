@@ -278,7 +278,7 @@ const sahil = {
     /*  Using the example above too many times can cause a delay to execute code effciently. So we can use this 
     example of 'this' keyword */
     calcAge: function(){
-        this.age = 2037 - this.updatedAge;
+        this.updatedAge = 2037 - this.age;
         return this.updatedAge;
     }
 
