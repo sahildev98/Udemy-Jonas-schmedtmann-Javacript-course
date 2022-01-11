@@ -278,17 +278,17 @@ const sahil = {
     /*  Using the example above too many times can cause a delay to execute code effciently. So we can use this 
     example of 'this' keyword */
     calcAge: function(){
-        this.updatedAge = 2037 - this.age;
+        this.updatedAge = 2021 - this.age;
         return this.updatedAge;
     }
 
 };
 
 // bracket notation for object sahil that demostrates object calcAge method. 
-console.log(sahil.age);
+console.log(sahil.updatedAge);
 
 // dot notation for object sahil that demostrates object calcAge method. 
-console.log(sahil.age);
+console.log(sahil.updatedAge);
 
 /* normally we assign a variable to the function. 
 In objects to write function we create a new property and put function keyword. E.g above
