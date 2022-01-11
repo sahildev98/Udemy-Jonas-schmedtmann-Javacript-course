@@ -269,6 +269,11 @@ const sahil = {
     // calcAge: function(age){
     //     return 2021 - age;
     // }
+    /* age is already written as a property of sahil object. This goes against DRY principles(Don't Repeat Yourself). */
+    calcAge: function(age){
+       return 2021 - age;
+    }
+
 };
 
 // bracket notation for object sahil that demostrates object calcAge method. 
