@@ -257,13 +257,13 @@ console.log(`Template literals string \nI have expereince in ${sahil.languages_e
 
 
 // Object Methods
-const sahil = {
-    firstName: 'Sahil', 
-    lastName: 'Ahmed',
-    age: 1998,
-    job: 'technical analyst',
-    languages_experienced: ['JavaScript', 'PHP', 'Java', 'Python'],
-    hasDriversLicense: true,
+// const sahil = {
+//     firstName: 'Sahil', 
+//     lastName: 'Ahmed',
+//     age: 1998,
+//     job: 'technical analyst',
+//     languages_experienced: ['JavaScript', 'PHP', 'Java', 'Python'],
+//     hasDriversLicense: true,
     // calc age is the property of object of the sahil object. Just like properties above.  
     // function expression or object methods
     // calcAge: function(age){
@@ -277,31 +277,39 @@ const sahil = {
     // }
     /*  Using the example above too many times can cause a delay to execute code effciently. So we can use this 
     example of 'this' keyword. This example creates a new property after calcAge method.  */
-    calcAge: function(){
-        this.updatedAge = 2021 - this.age;
-        return this.updatedAge;
-    }
+//     calcAge: function(){
+//         this.updatedAge = 2021 - this.age;
+//         return this.updatedAge;
+//     }
 
-};
+// };
 
 // the new updatedAge property is only created if the calcAge method is called. 
-console.log(sahil.calcAge());
+// console.log(sahil.calcAge());
 
 // bracket notation for object sahil that demostrates object calcAge method. 
-console.log(sahil.updatedAge);
+// console.log(sahil.updatedAge);
 
 // dot notation for object sahil that demostrates object calcAge method. 
-console.log(sahil.updatedAge);
+// console.log(sahil.updatedAge);
 
 /* normally we assign a variable to the function. 
 In objects to write function we create a new property and put function keyword. E.g above
 An property is called first when the code has been executed via the server. Then the function then replaces the property. */ 
- const calcAge = function (age){
-        return 2021 - age;
-    };
+//  const calcAge = function (age){
+//         return 2021 - age;
+//     };
 
     // challenge 
     /* create a method on sahil object and try to print the following statement:
     "Sahil is a 23-year old student, and he has drivers license "*/
+
+    const sahil = {
+    firstName: 'Sahil', 
+    lastName: 'Ahmed',
+    age: 1998,
+    job: 'technical analyst',
+    languages_experienced: ['JavaScript', 'PHP', 'Java', 'Python'],
+    hasDriversLicense: true,
 
 
