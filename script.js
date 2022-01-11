@@ -12,12 +12,12 @@ const interface = 'Audio';
 
 // functions 
 
-function logger() {
-    console.log("My name is Sahil");
-}
+// function logger() {
+//     console.log("My name is Sahil");
+// }
 // call function/ run function/invoke function 
-logger();
-logger();
+// logger();
+// logger();
 
 /*
 function fruitProcessor(apples, oranges){
