@@ -271,8 +271,11 @@ const sahil = {
     }
 };
 
-// bracket notation. 
+// bracket notation for object sahil that demostrates object calcAge method. 
 console.log(sahil['calcAge'](1998));
+
+// dot notation for object sahil that demostrates object calcAge method. 
+console.log(`I am ` + sahil.calcAge(1998) + ` years old`);
 
 /* normally we assign a variable to the function. 
 In objects to write function we create a new property and put function keyword. E.g above */ 
