@@ -307,9 +307,19 @@ An property is called first when the code has been executed via the server. Then
     const sahil = {
     firstName: 'Sahil', 
     lastName: 'Ahmed',
-    age: 1998,
+    birthYear: 1998,
     job: 'technical analyst',
     languages_experienced: ['JavaScript', 'PHP', 'Java', 'Python'],
     hasDriversLicense: true,
+    challenge: function(birthYear){
+        if(hasDriversLicense == true && birthYear == 23){
+            return sahil.firstName + `is a ` + sahil.age + `- year old student, and he has a drivers license`;
+        } else{
+            return sahil.firstName + `is a ` + sahil.age + `- year old student. However he does not have a drivers license.`;
+        }
+    }
+};
+
+console.log(sahil.challenge(1998));
 
 
