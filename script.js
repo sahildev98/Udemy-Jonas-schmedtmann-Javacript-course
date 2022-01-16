@@ -334,3 +334,11 @@ TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.9
 
 GOOD LUCK 😀
 */
+
+const mark = {
+    firstName: "Mark",
+    lastName:"Smith",
+    height: 1.69,
+    weight: 78
+};
+
