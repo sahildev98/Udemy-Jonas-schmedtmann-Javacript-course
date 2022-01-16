@@ -338,7 +338,7 @@ GOOD LUCK 😀
 // Mark obeject
 const mark = {
     firstName: "Mark",
-    lastName:"Smith",
+    lastName:"Miller",
     height: 1.69,
     weight: 78
 };
@@ -346,7 +346,7 @@ const mark = {
 // John object
 const john = {
     firstName:"John",
-    lastName:"Tyler",
+    lastName:"Smith",
     height:1.95,
     weight:92
 };
