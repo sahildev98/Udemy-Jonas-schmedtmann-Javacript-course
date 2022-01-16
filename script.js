@@ -358,3 +358,8 @@ const john = {
         return bmiData;
     }
 };
+
+console.log(mark.calcBMI());
+console.log(mark.markBMI);
+console.log(mark.markBMI);
+console.log(mark.markBMI);
