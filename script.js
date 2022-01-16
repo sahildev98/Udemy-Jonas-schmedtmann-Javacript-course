@@ -354,8 +354,8 @@ const john = {
     height:1.95,
     weight:92,
      calcBMI: function(){
-        const bmiData = this.weight / this.height ** 2;
-        return bmiData;
+        this.johnBMI = this.weight / this.height ** 2;
+        return this.johnBmi;
     }
 };
 
