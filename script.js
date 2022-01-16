@@ -320,7 +320,7 @@ An property is called first when the code has been executed via the server. Then
 //     } revist tenary operator
 };
 
-console.log(sahil.challenge(1998));
+// console.log(sahil.challenge(1998));
 
 // coding challenge #3 fundamentals part 2 
 /*
@@ -342,8 +342,8 @@ const mark = {
     height: 1.69,
     weight: 78,
     calcBMI: function(){
-        const bmiData = this.weight / this.height ** 2;
-        return bmiData;
+        this.markBMI = mark.weight / mark.height ** 2;
+        return this.markBMI;
     }
 };
 
