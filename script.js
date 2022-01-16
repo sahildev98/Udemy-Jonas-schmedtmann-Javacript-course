@@ -317,9 +317,9 @@ An property is called first when the code has been executed via the server. Then
 //         } else{
 //             return sahil.firstName + `is a ` + sahil.age + `- year old student. However he does not have a drivers license.`;
 //         }
-//     }
+//     } revist tenary operator
 };
 
 console.log(sahil.challenge(1998));
 
-
+// coding challenge #3 fundamentals part 2 
