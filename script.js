@@ -342,3 +342,9 @@ const mark = {
     weight: 78
 };
 
+const john = {
+    firstName:"John",
+    lastName:"Tyler",
+    height:1.95,
+    weight:92
+};
