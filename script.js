@@ -340,7 +340,11 @@ const mark = {
     firstName: "Mark",
     lastName:"Miller",
     height: 1.69,
-    weight: 78
+    weight: 78,
+    calcBMI: function(){
+        const bmiData = this.weight / this.height ** 2;
+        return bmiData;
+    }
 };
 
 // John object
@@ -348,5 +352,9 @@ const john = {
     firstName:"John",
     lastName:"Smith",
     height:1.95,
-    weight:92
+    weight:92,
+     calcBMI: function(){
+        const bmiData = this.weight / this.height ** 2;
+        return bmiData;
+    }
 };
