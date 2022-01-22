@@ -360,6 +360,7 @@ const john = {
 };
 
 console.log(mark.calcBMI());
+console.log(john.calcBMI());
 console.log(mark.markBMI);
-console.log(mark.markBMI);
-console.log(mark.markBMI);
+console.log(john.johnBMI);
+
