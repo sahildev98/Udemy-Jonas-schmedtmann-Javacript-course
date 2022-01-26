@@ -365,5 +365,5 @@ console.log(mark.markBMI);
 console.log(john.johnBMI);
 
 // For loops
-for (let rep = 1;
+for (let rep = 1; rep<= 10; rep++
 }
