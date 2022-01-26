@@ -364,3 +364,4 @@ console.log(john.calcBMI());
 console.log(mark.markBMI);
 console.log(john.johnBMI);
 
+// For loops
