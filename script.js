@@ -369,7 +369,7 @@ for (let rep = 1; rep<= 10; rep++){
   console.log(`Lifting weights repetition: ${rep}.`);
 }
 
-// looping arrays 
+// looping objects 
 const sahil = {
     firstName: 'Sahil', 
     lastName: 'Ahmed',
@@ -379,6 +379,6 @@ const sahil = {
     hasDriversLicense: true
   };
 
-  for(let i = 0;){
+  for(let i = 0; ){
 
   }
