@@ -365,5 +365,6 @@ console.log(mark.markBMI);
 console.log(john.johnBMI);
 
 // For loops
-for (let rep = 1; rep<= 10; rep++
+for (let rep = 1; rep<= 10; rep++){
+  console.log(`Lifting weights repetition: ${rep}.`);
 }
