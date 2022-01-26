@@ -318,7 +318,7 @@ An property is called first when the code has been executed via the server. Then
 //             return sahil.firstName + `is a ` + sahil.age + `- year old student. However he does not have a drivers license.`;
 //         }
 //     } revist tenary operator
-};
+// };
 
 // console.log(sahil.challenge(1998));
 
@@ -379,6 +379,6 @@ const sahil = {
     hasDriversLicense: true
   };
 
-  for(let i = 0; i < sahil.length; ){
-
+  for(let i = 0; i < sahil.length; i++){
+    console.log(sahil[i]);
   }
