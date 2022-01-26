@@ -304,13 +304,13 @@ An property is called first when the code has been executed via the server. Then
     /* create a method on sahil object and try to print the following statement:
     "Sahil is a 23-year old student, and he has drivers license "*/
 
-    const sahil = {
-    firstName: 'Sahil', 
-    lastName: 'Ahmed',
-    birthYear: 1998,
-    job: 'technical analyst',
-    languages_experienced: ['JavaScript', 'PHP', 'Java', 'Python'],
-    hasDriversLicense: true,
+    // const sahil = {
+    // firstName: 'Sahil', 
+    // lastName: 'Ahmed',
+    // birthYear: 1998,
+    // job: 'technical analyst',
+    // languages_experienced: ['JavaScript', 'PHP', 'Java', 'Python'],
+    // hasDriversLicense: true,
 //     challenge: function(birthYear){
 //         if(hasDriversLicense == true && birthYear == 23){
 //             return sahil.firstName + `is a ` + sahil.age + `- year old student, and he has a drivers license`;
@@ -368,3 +368,13 @@ console.log(john.johnBMI);
 for (let rep = 1; rep<= 10; rep++){
   console.log(`Lifting weights repetition: ${rep}.`);
 }
+
+// looping arrays 
+const sahil = {
+    firstName: 'Sahil', 
+    lastName: 'Ahmed',
+    birthYear: 1998,
+    job: 'technical analyst',
+    languages_experienced: ['JavaScript', 'PHP', 'Java', 'Python'],
+    hasDriversLicense: true
+  };
