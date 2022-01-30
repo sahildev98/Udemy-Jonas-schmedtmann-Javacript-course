@@ -390,3 +390,5 @@ const sahil = {
   for(let i = 0; i < years.length; i++){
      ages.push(2021 - years[i]);
   }
+
+  console.log(ages);
