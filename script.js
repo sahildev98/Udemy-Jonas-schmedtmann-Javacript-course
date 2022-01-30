@@ -386,3 +386,7 @@ const sahil = {
   // Another example for loop. This time inloving adding alements to an empty array. 
   const years = [2008, 2010, 2015, 2021];
   const ages = [];
+
+  for(let i = 0; i < years.length; i++){
+     
+  }
