@@ -382,3 +382,6 @@ const sahil = {
   for(let i = 0; i < sahil.length; i++){
     console.log(sahil[i]);
   }
+
+  // Another example for loop. This time inloving adding alements to an empty array. 
+  
