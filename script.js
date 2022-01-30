@@ -348,26 +348,26 @@ const mark = {
 };
 
 // John object
-const john = {
-    firstName:"John",
-    lastName:"Smith",
-    height:1.95,
-    weight:92,
-     calcBMI: function(){
-        this.johnBMI = this.weight / this.height ** 2;
-        return this.johnBmi;
-    }
-};
+// const john = {
+//     firstName:"John",
+//     lastName:"Smith",
+//     height:1.95,
+//     weight:92,
+//      calcBMI: function(){
+//         this.johnBMI = this.weight / this.height ** 2;
+//         return this.johnBmi;
+//     }
+// };
 
-console.log(mark.calcBMI());
-console.log(john.calcBMI());
-console.log(mark.markBMI);
-console.log(john.johnBMI);
+// console.log(mark.calcBMI());
+// console.log(john.calcBMI());
+// console.log(mark.markBMI);
+// console.log(john.johnBMI);
 
-// For loops
-for (let rep = 1; rep<= 10; rep++){
-  console.log(`Lifting weights repetition: ${rep}.`);
-}
+// // For loops
+// for (let rep = 1; rep<= 10; rep++){
+//   console.log(`Lifting weights repetition: ${rep}.`);
+// }
 
 // looping objects 
 const sahil = {
