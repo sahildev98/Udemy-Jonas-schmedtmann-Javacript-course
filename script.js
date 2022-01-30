@@ -388,5 +388,5 @@ const sahil = {
   const ages = [];
 
   for(let i = 0; i < years.length; i++){
-     2021 - years[i];
+     ages.push(2021 - years[i]);
   }
