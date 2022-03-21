@@ -379,16 +379,21 @@ const sahil = {
     hasDriversLicense: true
   };
 
-  for(let i = 0; i < sahil.length; i++){
-    console.log(sahil[i]);
-  }
+  for(const property in sahil){
+  console.log(`${property}: ${sahil[property]}`);
+}
+  
 
   // Another example for loop. This time inloving adding alements to an empty array. 
   const years = [2008, 2010, 2015, 2021];
   const ages = [];
 
-  for(let i = 0; i < years.length; i++){
-     ages.push(2021 - years[i]);
-  }
-
-  console.log(ages);
+  // for(let i = 0; i < years.length; i++){
+  //    ages.push(2021 - years[i]);
+  // }
+  // reverse for loop 
+  // for(let i = sahil.length - 1; i >= 0; i--){
+  //   console.log(i);
+  // }
+ 
+  // console.log(ages);
