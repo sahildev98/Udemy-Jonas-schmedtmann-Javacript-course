@@ -413,7 +413,8 @@ const sahil = {
   }
 
   // coding challenge
-  const tips = [125, 555, 46];
+  // tips array
+  const tips = [22, 295, 176, 440, 37, 105, 10, 1100, 86];
   
   const calculatorTips = function calcTip(bill){
       if(bill >= 50 && bill <= 300){
