@@ -397,3 +397,9 @@ const sahil = {
   // }
  
   // console.log(ages);
+
+  // while loop
+
+  for(let rep = 0; rep <= 10; rep++){
+    console.log(`Lifting weights rep: ${[rep]}`);
+  }
