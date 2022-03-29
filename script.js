@@ -403,3 +403,11 @@ const sahil = {
   for(let rep = 0; rep <= 10; rep++){
     console.log(`Lifting weights rep: ${[rep]}`);
   }
+
+  console.log(`-----------------------------`);
+
+  let rep = 0; 
+  while(rep <=10){
+    console.log(`WHILE-LOOP: Lifting weights rep${[rep]}`);
+    rep++;
+  }
