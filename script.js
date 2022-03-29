@@ -411,3 +411,25 @@ const sahil = {
     console.log(`WHILE-LOOP: Lifting weights rep${[rep]}`);
     rep++;
   }
+
+  // coding challenge
+  const tips = [125, 555, 46];
+  
+  const calculatorTips = function calcTip(bill){
+      if(bill >= 50 && bill <= 300){
+      return (bill * 0.15) + bill;
+      } else{
+          return (bill * 0.20) + bill;
+      }
+  }
+  
+  
+  
+  const test1 = calculatorTips(tips[0]);
+  const test2 = calculatorTips(tips[1]);
+  const test3 = calculatorTips(tips[2]);
+  console.log(test1, test2, test3);
+  
+  const total = [test1, test2, test3];
+  console.log(total);
+  
