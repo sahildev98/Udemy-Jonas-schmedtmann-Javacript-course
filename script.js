@@ -400,37 +400,40 @@ const sahil = {
 
   // while loop
 
-  for(let rep = 0; rep <= 10; rep++){
-    console.log(`Lifting weights rep: ${[rep]}`);
-  }
+  // for(let rep = 0; rep <= 10; rep++){
+  //   console.log(`Lifting weights rep: ${[rep]}`);
+  // }
 
-  console.log(`-----------------------------`);
+  // console.log(`-----------------------------`);
 
-  let rep = 0; 
-  while(rep <=10){
-    console.log(`WHILE-LOOP: Lifting weights rep${[rep]}`);
-    rep++;
-  }
+  // let rep = 0; 
+  // while(rep <=10){
+  //   console.log(`WHILE-LOOP: Lifting weights rep${[rep]}`);
+  //   rep++;
+  // }
 
   // coding challenge
   // tips array
-  const tips = [22, 295, 176, 440, 37, 105, 10, 1100, 86];
-  
-  const calculatorTips = function calcTip(bill){
+
+const calculatorTips = function calcTip(bill){
       if(bill >= 50 && bill <= 300){
       return (bill * 0.15) + bill;
       } else{
           return (bill * 0.20) + bill;
       }
   }
+  const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86];
+  const tips = [];
+  const totals = [];
   
   
+
+  for (let i = 0; i < bills.length; i++) {
+    const tip = tips.push(calculatorTips(bills[i]));
+    totals.push(tip + bills[i]);
+  }
+  console.log(`${bills} \n  ${tips} \n ${totals}`);
   
-  const test1 = calculatorTips(tips[0]);
-  const test2 = calculatorTips(tips[1]);
-  const test3 = calculatorTips(tips[2]);
-  console.log(test1, test2, test3);
   
-  const total = [test1, test2, test3];
-  console.log(total);
+ 
   
